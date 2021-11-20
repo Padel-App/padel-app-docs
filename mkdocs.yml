@@ -1,6 +1,6 @@
 site_name: Luard
 docs_dir: docs
-dev_addr: "127.0.0.1"
+dev_addr: "::0"
 theme:
   features:
     - navigation.tabs
