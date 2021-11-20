@@ -101,6 +101,3 @@ extra_javascript:
   - javascripts/config.js
 extra_css:
   - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/default.min.css
-plugins:
-  - git-revision-date-localized:
-      type: date
