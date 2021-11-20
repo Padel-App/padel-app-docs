@@ -1,10 +1,26 @@
 site_name: Luard
+site_url: https://padel-app.github.io/padel-app-docs
 docs_dir: docs
+repo_url: https://github.com/Padel-App/padel-app-docs
+repo_name: Padel-App-Docs
 theme:
+  language: es
+  icon:
+    logo: fontawesome/solid/table-tennis
+    repo: fontawesome/brands/github
+  font:
+    text: Roboto
+    code: Fira Code
   features:
+    # - header.autohide
     - navigation.tabs
-    - navigation.tabs.sticky
+    # - navigation.tabs.sticky
     - navigation.top
+    - navigation.instant
+    - navigation.tracking
+    # - navigation.sections
+    - navigation.indexes
+    # - toc.integrate
   name: "material"
   palette:
     # Dark mode
@@ -25,29 +41,57 @@ theme:
         name: Switch to dark mode
 extra:
   homepage: https://padel-app.github.io/padel-app-docs/
+  generator: false
+  disqus: padel-app
   social:
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/squidfunk
+    - icon: fontawesome/brands/fort-awesome
+      link: https://padel-app.github.io/padel-app-docs/
       name: Padel App
+    - icon: fontawesome/brands/github
+      link: https://padel-app.github.io/padel-app-docs/
+      name: GitHub
+    - icon: fontawesome/brands/twitter
+      link: https://padel-app.github.io/padel-app-docs/
+      name: Twitter
 copyright: Copyright &copy; 2021 Luard
 nav:
-  - Home: "index.md"
-  - Padel app:
-      - Demo: "demo.md"
-      - PadelApp: "padel-app.md"
-      - Customer Wrapper: "customer-wrapper.md"
+  - Padel App:
+      - Inicio: "index.md"
+      - Backend: "padel-app-backend.md"
+      - Frontend: "padel-app-frontend.md"
+  - Demo Mkdocs: "demo.md"
 markdown_extensions:
+  - abbr
   - attr_list
   - admonition
   - def_list
+  - footnotes
+  - meta
+  - md_in_html
+  - toc:
+      permalink: true
   - pymdownx.tasklist:
       custom_checkbox: true
       clickable_checkbox: true
-  - pymdownx.tabbed
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.caret
+  - pymdownx.tabbed:
+      alternate_style: true
   - pymdownx.details
   - pymdownx.keys
   - pymdownx.snippets
+  - pymdownx.mark
+  - pymdownx.smartsymbols
   - pymdownx.inlinehilite
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
   - pymdownx.highlight:
       linenums: true
       linenums_style: pymdownx.inline
@@ -57,3 +101,6 @@ extra_javascript:
   - javascripts/config.js
 extra_css:
   - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/default.min.css
+plugins:
+  - git-revision-date-localized:
+      type: date
