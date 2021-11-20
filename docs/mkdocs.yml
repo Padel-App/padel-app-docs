@@ -1,0 +1,59 @@
+site_name: Luard
+docs_dir: docs
+dev_addr: "127.0.0.1"
+theme:
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+  name: "material"
+  palette:
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+extra:
+  homepage: https://example.com
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/squidfunk
+      name: squidfunk on Twitter
+copyright: Copyright &copy; 2016 - 2020 Martin Donath
+nav:
+  - Home: "index.md"
+  - First page:
+      - Test: "first-page.md"
+      - Customer Wrapper: "customer-wrapper.md"
+markdown_extensions:
+  - attr_list
+  - admonition
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
+  - pymdownx.tabbed
+  - pymdownx.details
+  - pymdownx.keys
+  - pymdownx.snippets
+  - pymdownx.inlinehilite
+  - pymdownx.highlight:
+      linenums: true
+      linenums_style: pymdownx.inline
+  - pymdownx.superfences
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js
+  - javascripts/config.js
+extra_css:
+  - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/default.min.css
