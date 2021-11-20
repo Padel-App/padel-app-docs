@@ -1,6 +1,3 @@
----
-disqus: ""
----
 # Padel App
 ## Backend
 Backed based on NestJS.

@@ -42,7 +42,7 @@ theme:
 extra:
   homepage: https://padel-app.github.io/padel-app-docs/
   generator: false
-  disqus: padel-app
+  # disqus: padel-app
   social:
     - icon: fontawesome/brands/fort-awesome
       link: https://padel-app.github.io/padel-app-docs/
