@@ -1,6 +1,5 @@
 site_name: Luard
 docs_dir: docs
-dev_addr: "::0"
 theme:
   features:
     - navigation.tabs
