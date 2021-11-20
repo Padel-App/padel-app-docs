@@ -24,16 +24,17 @@ theme:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
 extra:
-  homepage: https://example.com
+  homepage: https://padel-app.github.io/padel-app-docs/
   social:
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/squidfunk
-      name: squidfunk on Twitter
-copyright: Copyright &copy; 2016 - 2020 Martin Donath
+      name: Padel App
+copyright: Copyright &copy; 2021 Luard
 nav:
   - Home: "index.md"
-  - First page:
-      - Test: "first-page.md"
+  - Padel app:
+      - Demo: "demo.md"
+      - PadelApp: "padel-app.md"
       - Customer Wrapper: "customer-wrapper.md"
 markdown_extensions:
   - attr_list
