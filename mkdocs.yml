@@ -57,7 +57,9 @@ copyright: Copyright &copy; 2021 Luard
 nav:
   - Padel App:
       - Inicio: "index.md"
-      - Backend: "padel-app-backend.md"
+      - Backend:
+          - Inicio: "padel-app-backend.md"
+          - Swagger: "swagger.md"
       - Frontend: "padel-app-frontend.md"
   - Demo Mkdocs: "demo.md"
 markdown_extensions:
@@ -101,5 +103,6 @@ extra_javascript:
   - javascripts/config.js
 extra_css:
   - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/default.min.css
+  - assets/css/swagger-ui.css
 plugins:
   - render_swagger
