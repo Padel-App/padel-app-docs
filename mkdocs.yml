@@ -60,6 +60,7 @@ nav:
       - Backend: "padel-app-backend.md"
       - Frontend: "padel-app-frontend.md"
   - Demo Mkdocs: "demo.md"
+  - Swagger: api-index.md
 markdown_extensions:
   - abbr
   - attr_list
@@ -101,3 +102,7 @@ extra_javascript:
   - javascripts/config.js
 extra_css:
   - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/default.min.css
+plugins:
+  - swagger-ui:
+      spec_url: "https://padelapp-backend.herokuapp.com/docs-json"
+      outfile: "api-index.md"
