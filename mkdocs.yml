@@ -61,6 +61,10 @@ nav:
           - Inicio: "padel-app-backend.md"
           - Swagger: "swagger.md"
       - Frontend: "padel-app-frontend.md"
+      - Scrum:
+          - DoD: "DoD.md"
+          - DoR: "DoR.md"
+          - Estimaciones": "tabla-estimacion-story-points.md"
   - Demo Mkdocs: "demo.md"
 markdown_extensions:
   - abbr
