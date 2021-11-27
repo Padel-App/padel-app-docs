@@ -6,7 +6,7 @@ repo_name: Padel-App-Docs
 theme:
   language: es
   icon:
-    logo: fontawesome/solid/table-tennis
+    logo: fontawesome/solid/bookmark
     repo: fontawesome/brands/github
   font:
     text: Roboto
