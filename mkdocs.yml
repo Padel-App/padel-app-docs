@@ -1,4 +1,4 @@
-site_name: Luard
+site_name: Padel App
 site_url: https://padel-app.github.io/padel-app-docs
 docs_dir: docs
 repo_url: https://github.com/Padel-App/padel-app-docs
@@ -55,16 +55,15 @@ extra:
       name: Twitter
 copyright: Copyright &copy; 2021 Luard
 nav:
-  - Padel App:
-      - Inicio: "index.md"
-      - Backend:
-          - Inicio: "padel-app-backend.md"
-          - Swagger: "swagger.md"
-      - Frontend: "padel-app-frontend.md"
-      - Scrum:
-          - DoD: "DoD.md"
-          - DoR: "DoR.md"
-          - Estimaciones": "tabla-estimacion-story-points.md"
+  - Padel App: "index.md"
+  - Backend:
+      - Inicio: "padel-app-backend.md"
+      - Swagger: "swagger.md"
+  - Frontend: "padel-app-frontend.md"
+  - Scrum:
+      - DoD: "DoD.md"
+      - DoR: "DoR.md"
+      - Tabla de estimaciones: "tabla-estimacion-story-points.md"
   - Demo Mkdocs: "demo.md"
 markdown_extensions:
   - abbr
