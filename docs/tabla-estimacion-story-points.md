@@ -5,6 +5,9 @@
 3- Pequeña modificación que afecte tanto a la API como a la aplicación: Añadir un campo nuevo en el formulario de registro.
 5- Nuevo endpoint de la API: Crear endpoint de registro.
 8- Pantalla nueva en la aplicación: Crear una pantalla de bienvenida.
-13- Pantalla nueva en la aplicación que necesite un nuevo endpoint (simple): Funcionalidad de registro. 
+13- Pantalla nueva en la aplicación que necesite un nuevo endpoint (simple, CRUD): Funcionalidad de registro. 
 20- Pantalla nueva en la aplicación que necesite un nuevo endpoint (complejo): Funcionalidad de login.
 ...
+
+## Story points per sprint:
+- ~50
