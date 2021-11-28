@@ -1,7 +1,7 @@
 # Swagger
 
-* URL: https://padelapp-backend.herokuapp.com/docs/
-* JSON: https://padelapp-backend.herokuapp.com/docs-json
+* URL: [Swagger](https://padelapp-backend.herokuapp.com/docs/)
+* JSON: [Swagger JSON](https://padelapp-backend.herokuapp.com/docs-json)
 
 
 !!swagger-http https://padelapp-backend.herokuapp.com/docs-json!!
